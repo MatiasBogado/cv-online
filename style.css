@@ -3,12 +3,12 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-/* aca inicia el header  */
+/* ------------- inicio del header -------------------- */
 
 #header{
 
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/monitor-933392_1920.jpg );
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bannerlinkedin.jpg );
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
@@ -110,16 +110,16 @@ scroll-bar{
     border-radius: 16px;
     background: #000 !important;
 }
-/*------------------------------resume --------------*/
+/*------------------------------ resumen --------------*/
 
-.resume{
-    margin-top: -50px ;
-    padding-top: 50px;
+.resumen{
+    margin-top: 30px ;
+    padding-top: 90px;
     padding-bottom: 30px;
     background: #f9f9f9;
 
 }
-.resume h3{
+.resumen h3{
     margin-bottom: 50px;
 }
 .timeline{
@@ -147,7 +147,7 @@ scroll-bar{
 }
 
 .timeline li h4{
-    background-color: #000;
+    background-color: rgb(63, 38, 206);
     padding: 5px 0 5px 20px;
     color: #Fff;
     font-size: 15px;
@@ -172,11 +172,11 @@ scroll-bar{
 }
 
 
-/* servicios */
+/* ---------------------- servicios --------------------------- */
 
 .services{
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 150px;
  }
 
 .services h1 {
@@ -222,7 +222,7 @@ padding-bottom: 50px;
     color: #fff;
 }
 
-/* _-------------------------------- contactoooo_____________*/
+/* -------------------------------- contacto ---------------------- */
 
 .contact{
     padding-top: 50px;
@@ -274,29 +274,9 @@ padding-bottom: 50px;
     color: rgb(98, 54, 219);
 }
 
-/* iconos sociales */
-.social-icons{
-    top: 50%;
-    transform: translateY(-50%);
-    position: sticky;
-    z-index: 1;
-    width: 80px;
-}
-.social-icons ul{
-    padding: initial;
-
-}
-.social-icons ul li{
-    height: 40px;
-    width: 40px;
-    list-style-type: none;
-    padding-left: 12px;
-    padding-top: 6px;
-    margin-top: 5px;
-
-}
-.social-icons ul li:hover{
-    padding-left: 30px;
-    width: 80px;
-    transition: 1s;
+/* ---------------------- iconos sociales ---------------- */
+.social-icons a{
+   font-size: 50px;
+   margin-right: 40px;
+   margin-left: 20px;
 }
