@@ -1,6 +1,6 @@
 # cvMatiasBogadoweb
 
-##- Inicio
-###- Quien soy
-####- Porfolio
-#####- Contacto
+## - Inicio
+### - Quien soy
+#### - Porfolio
+##### - Contacto
